@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+h1{
+    font-size: 206px;
+}
+h3{
+    font-size: 105px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+.title{
+    font-size: 105px;
+    font-family: "RobotoCondensed-Regular";
+    color: #E2AB3F;
+}
+
+@font-face{
+    font-family: "RobotoCondensed-Light";
+    src: url("../fonts/RobotoCondensed-Light.woff2") format("woff2"),
+         url("../fonts/RobotoCondensed-Light.woff") format("woff"); 
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;       
+}
+@font-face{
+    font-family: "RobotoCondensed-LightItalic";
+    src: url("../fonts/RobotoCondensed-LightItalic.woff2") format("woff2"),
+         url("../fonts/RobotoCondensed-LightItalic.woff") format("woff"); 
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;       
+}
+@font-face{
+    font-family: "RobotoCondensed-Regular";
+    src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"),
+         url("../fonts/RobotoCondensed-Regular.woff") format("woff"); 
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;       
+}
+
+
+@import 'blocks/_header.scss';
+@import 'blocks/_cybersecurity.scss';
+@import 'blocks/_cyber-threats.scss';
+@import 'blocks/_security.scss';
+@import 'blocks/_footer.scss';
+
+
+
+
+@media (max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+    .header__title{
+        display: flex;
+        justify-content: center;
+        padding-top: 120px;
+        font-size: 180px;
+        line-height: 231px;
+    }
+    .header__title span{
+        font-size: 50px;
+        margin-top: -50px;
+    }
+}
+@media (max-width:992px){
+    .container{
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .page-section{
+        margin: 100px 0;
+    }
+    .cybersecurity, .cyber-threats, .security {
+        padding-top: 20px;
+    }
+    .cybersecurity__container,
+    .cyber-threats__container{
+        position: static;
+    }
+    .cybersecurity__slider,
+    .cyber-threats__slider{
+        width: 100%;
+    }
+    .cybersecurity__body,
+    .cyber-threats__body{
+        width: 100%;
+        padding-left: 0;
+    }
+    .security__content{
+        position: static;
+    }
+    .security__images{
+        width: 100%;
+    }
+    .cybersecurity__title{
+        font-size: 100px;
+    }
+    .cyber-threats__title{
+        font-size: 100px;
+    } 
+    .cybersecurity__text:first-child, .security__text:first-child {
+        padding-top: 20px;
+    }
+    .security__title{
+        padding-bottom: 50px;
+        font-size: 100px;
+    }
+    .security__inner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer__links-title{
+        display: flex;
+        justify-content: center;
+        max-width: 550px;
+        height: 84px;
+        font-size: 40px;
+        padding-top: 200px;
+    }
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        // width: 300px;
+    }
+    .footer__link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .footer__title{
+        padding-top: 50px;
+    }
+    .footer__text{
+        text-align: center;
+    }
+}
+@media (max-width:767px){
+    .container{
+        max-width: none;
+    }
+    .header__title {
+        padding-top: 100px;
+        font-size: 120px;
+        line-height: 150px;
+    }
+    .header__title span {
+        font-size: 30px;
+        margin-top: -94px;
+    }
+    .header__top {
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .page-section{
+        margin: 100px 0;
+    }
+    .cybersecurity__container,
+    .cyber-threats__container{
+        position: static;
+    }
+    .cybersecurity__slider,
+    .cyber-threats__slider{
+        width: 100%;
+    }
+    .cybersecurity__body,
+    .cyber-threats__body{
+        width: 100%;
+        padding-left: 0;
+    }
+    .cybersecurity__title{
+        font-size: 80px;
+    }
+    .cyber-threats__title{
+        font-size: 80px;
+    }  
+    .security__title{
+        font-size: 70px;
+    }
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // width: 300px;
+    }
+    .footer__links-title{
+        text-align: center;
+        // height: 84px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .footer__link{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__text{
+        text-align: center;
+    }
+}

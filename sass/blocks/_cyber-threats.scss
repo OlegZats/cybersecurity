@@ -1,0 +1,34 @@
+.cyber-threats{
+    padding-top: 195px;
+    &__slider{
+        width: 50%;
+        margin-left: auto;
+    }
+    &__inner{
+        position: relative;
+    }
+    &__container{
+        max-width: 1230px;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    &__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: "RobotoCondensed-Light";
+        width: 50%;
+        height: 100%;
+        align-items: start;
+    }
+    &__list{
+        margin: 5px 0;
+        padding: 0 55px 42px 0;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

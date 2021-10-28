@@ -1,0 +1,38 @@
+.security{
+    padding-top: 193px;
+    &__title{
+        padding-bottom: 191px;
+    }
+    &__inner{
+        display: flex;
+    }
+    &__content{
+        height: 100%;                              
+    }
+    &__images{
+        margin-right: 100px;
+    }
+    &__body-title{
+        padding-bottom: 33px;
+        font-size: 18px;
+        font-family: "RobotoCondensed-Light";
+    }
+    &__body-text{
+        width: 493px;
+        height: 128px;
+        font-size: 18px;
+        padding-bottom: 45px;
+        font-family: "RobotoCondensed-Light";
+    }
+    &__text{
+        margin-bottom: 40px;
+        font-size: 18px;
+        font-family: "RobotoCondensed-Light";
+    }
+    &__gallery{
+        padding-top: 54px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

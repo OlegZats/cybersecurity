@@ -1,0 +1,62 @@
+.cybersecurity{
+    padding-top: 259px;
+    &__title{
+        padding-bottom: 43px;
+    }
+    &__slider{
+        width: 50%;
+    }
+    &__inner{
+        position: relative;
+    }
+    &__container{
+        max-width: 1230px;
+        padding: 0 15px;
+        margin: 0 auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    &__body{
+        width: 50%;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+    &__body-title{
+        font-family: "RobotoCondensed-Regular";
+        font-weight: 500;
+    }
+    &__text{
+        padding: 0 0 24px 55px;
+        font-family: "RobotoCondensed-Light";
+    }
+    &__body-title{
+        padding:0 0 44px 55px;
+    }
+    &__list{
+        padding-left: 55px;
+        font-family: "RobotoCondensed-Light";
+    }
+}
+.slick-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.slick-prev{
+    left: 10px;
+}
+
+.slick-next{
+    right: 0;
+}
